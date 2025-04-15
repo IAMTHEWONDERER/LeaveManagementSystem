@@ -1,0 +1,47 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore Visual Studio files
+*.user
+*.vspscc
+*.suo
+*.vssscc
+*.vcxproj.filters
+*.log
+
+# Ignore IDE-specific files
+.vs/
+.idea/
+*.code-workspace
+
+# Ignore NuGet packages folder
+packages/
+
+# Ignore Docker-related files if not needed in repo
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore SQLite database file (if used)
+*.db
+*.sqlite
+
+# Ignore environment-specific files
+appsettings.Development.json
+secrets.json
+
+# Ignore publish output
+publish/
+
+# Ignore backup files
+*~
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+
+# Ignore logs
+*.log
