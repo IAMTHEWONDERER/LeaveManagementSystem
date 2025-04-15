@@ -30,6 +30,7 @@ docker-compose.yml
 # Ignore environment-specific files
 appsettings.Development.json
 secrets.json
+.env
 
 # Ignore publish output
 publish/
